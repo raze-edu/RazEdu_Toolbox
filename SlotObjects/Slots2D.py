@@ -1,4 +1,4 @@
-from SlotObjects.BaseSlotClass import *
+from BaseSlot import *
 from ToolBox.print_align import *
 
 class Slot2D:

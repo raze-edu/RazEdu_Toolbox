@@ -1,4 +1,4 @@
-from git.SlotObjects.MathSlotClass import MathObj as MAObj
+from MathSlotClass import MathObj as MAObj
 
 class Vector(MAObj):
     __slots__ = 'x', 'y'

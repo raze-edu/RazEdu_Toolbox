@@ -1,8 +1,8 @@
-from SlotObjects.MathSlotClass import MathObj as MAObj
+from MathSlotClass import MathObj as MAObj
 
 class Vertex(MAObj):
 	__slots__ = 'x', 'y'
-	__name__ = 'VVertex2D'
+	__name__ = 'Vertex2D'
 	
 	def __init__(self, *args, **kwargs):
 		args = [0 if i >= len(args) else args[i] for i in range(len(self.__slots__))]
