@@ -1,0 +1,11 @@
+# Compiled modules
+*.pyd
+*.so
+*.dll
+
+# Generated C source files
+*.c
+
+# Build directories
+build/
+__pycache__/
